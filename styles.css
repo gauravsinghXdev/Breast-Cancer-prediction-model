@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+
+.navbar {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav ul li a {
+    padding: 0px 10px;
+} */
+
+.landingPage {
+    height: 100vh;
+    width: 1005;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.landingPage div {
+    height: max-content;
+    width: max-content;
+    text-align: center;
+}
+
+.landingPage h1 {
+    font-size: 50px;
+    color: rgb(27, 163, 27);
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 90%;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.formPart {
+    padding: 20px;
+}
+
+.Pid {
+    display: flex;
+    width: 350px;
+    padding-left: 20px;
+}
